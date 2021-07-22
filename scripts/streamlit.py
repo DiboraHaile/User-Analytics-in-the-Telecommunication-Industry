@@ -7,7 +7,7 @@ import pickle
 
 
 # loading the trained model
-pickle_in = open('../models/scores_model.pkl', 'rb') 
+pickle_in = open('models/scores_model.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
 
 def display_df(table_name):

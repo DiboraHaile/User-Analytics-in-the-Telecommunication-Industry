@@ -4,7 +4,7 @@ import pandas as pd
 import sys, getopt
 
 def connection_DB():
-    conn = sqlite3.connect("../Db_files/user_analysis.db")
+    conn = sqlite3.connect("Db_files/user_analysis.db")
     cur = conn.cursor()
     return conn,cur
 
